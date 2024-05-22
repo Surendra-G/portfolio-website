@@ -39,6 +39,16 @@
 
             <i class=""></i>
         </div>
+        <!-- Add loading overlay -->
+        <div id="loading-spinner" class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
 
         <div class="portfolio">
 
@@ -169,7 +179,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://github.com/avimanyu-rimal">see more...</a>
+                    <a href="https://github.com/Surendra-G">see more...</a>
                 </section>
 
                 <section class="content-card experience" id="experience">
@@ -238,5 +248,31 @@
     </div>
 
 </body>
+<script>
+    // JavaScript to toggle loading overlay
+    // Function to show loading spinner
+    // Function to show loading spinner
+    function showLoadingSpinner() {
+        document.getElementById('loading-spinner').style.display = 'flex'; // Display the loading spinner
+    }
+
+    // Function to hide loading spinner
+    function hideLoadingSpinner() {
+        document.getElementById('loading-spinner').style.display = 'none'; // Hide the loading spinner
+    }
+
+    // Event listeners to trigger the loading spinner
+    document.querySelectorAll('header nav ul li a').forEach(link => {
+        link.addEventListener('click', () => {
+            showLoadingSpinner(); // Show loading spinner when a navigation link is clicked
+        });
+    });
+
+    // Hide loading spinner when page is loaded
+    window.addEventListener('load', () => {
+        hideLoadingSpinner(); // Hide loading spinner when the page is fully loaded
+    });
+
+</script>
 
 </html>

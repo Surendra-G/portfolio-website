@@ -2,8 +2,10 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import "./Portfolio.css";
 import profileImage from "./images/profile.png";
-import Surendra from "./images/surendra.png";
+import Surendra from "./images/surendra.jpeg";
 import Social from "./socialMedia/social.jsx";
+import Myskills from "./skills/skills.jsx";
+import SocialMediaIcons from "./MediaButtons/media.jsx";
 
 const Portfolio = () => {
   return (
@@ -31,15 +33,6 @@ const Portfolio = () => {
             <a href="#contact">Contact</a>
           </div>
         </nav>
-        {/* <div className="input__container">
-            <div className="shadow__input"></div>
-            <button className="input__button__shadow">
-              <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20px" width="20px">
-                <path d="M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z" fillRule="evenodd" fill="#17202A"></path>
-              </svg>
-            </button>
-            <input type="text" name="text" className="input__search" placeholder="What do you want to search about me?" />
-          </div> */}
       </header> 
       <body>
         <h1>About Me</h1>
@@ -51,13 +44,10 @@ const Portfolio = () => {
           />
           <div className="Myintro">
             <p>
-              "Hi, I'm Surendra Giri, a bachelor student deeply passionate about
-              technology. With a fervent drive for learning, I eagerly explore
-              coding and emerging tech. I'm excited to connect with fellow
-              enthusiasts, exchange ideas, and collaborate on innovative
-              projects that push the boundaries of what's possible in tech."
+            "Hi, I'm Surendra Giri, a bachelor student passionate about technology. I love learning about coding and new tech. I'm excited to connect with others, share ideas, and work on innovative projects in the tech world."
             </p>
-            <Social />
+            <SocialMediaIcons />
+            <Myskills />
           </div>
         </div>
       </body>

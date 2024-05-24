@@ -5,7 +5,9 @@ import profileImage from "./images/profile.png";
 import Surendra from "./images/surendra.jpeg";
 import Social from "./socialMedia/social.jsx";
 import Myskills from "./skills/skills.jsx";
+import Myskills2 from "./skills/skills2.jsx";
 import SocialMediaIcons from "./MediaButtons/media.jsx";
+import Footer from "./Footer/footer.jsx";
 
 const Portfolio = () => {
   return (
@@ -48,6 +50,8 @@ const Portfolio = () => {
             </p>
             <SocialMediaIcons />
             <Myskills />
+            <Myskills2 />
+            <Footer />
           </div>
         </div>
       </body>

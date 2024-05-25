@@ -29,3 +29,32 @@
     background-position: 200% center;
   }
 }
+
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .shine {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: -20%;
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 768px) {
+  .shine {
+    margin-top: 40%;
+    margin-left: -25%;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .shine {
+    position: absolute;
+    margin-top: 70%;
+    margin-left: -25%;
+    font-size: 1.2em;
+    text-align: center; /* Center text on small screens */
+  }
+}

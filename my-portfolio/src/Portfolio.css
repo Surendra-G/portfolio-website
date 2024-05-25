@@ -114,3 +114,88 @@ body h1:hover{
   box-shadow: 0px 0px 20px 1px #ffbb763f;
   border: 1px solid rgba(255, 255, 255, 0.454);
 }
+
+
+@media (max-width: 1200px) {
+  nav {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .navitems {
+    gap: 10px;
+  }
+
+  .navitems a {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+  nav {
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navitems {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navitems a {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .Intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Surendra {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .Myintro p {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+  }
+
+  body h1 {
+    font-size: 1.5em;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navitems {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navitems a {
+    padding: 6px 8px;
+    font-size: 10px;
+  }
+
+  .Myintro p {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  body h1 {
+    font-size: 1.2em;
+  }
+}

@@ -47,3 +47,39 @@
     font-size: 2.5em;
     fill: #fff;
   }
+
+
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+  .container2 {
+    margin-top: 10%; /* Adjust margin-top for smaller screens */
+  }
+
+  .container2 .glass {
+    width: 120px; /* Adjust width for smaller screens */
+    height: 140px; /* Adjust height for smaller screens */
+    font-size: 1.5em; /* Adjust font-size for smaller screens */
+  }
+
+  .container2 .glass::before {
+    height: 30px; /* Adjust height for smaller screens */
+    font-size: 0.8em; /* Adjust font-size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container2 {
+    margin-top: 15%; /* Further adjust margin-top for even smaller screens */
+  }
+
+  .container2 .glass {
+    width: 100px; /* Further adjust width for even smaller screens */
+    height: 120px; /* Further adjust height for even smaller screens */
+    font-size: 1.2em; /* Further adjust font-size for even smaller screens */
+  }
+
+  .container2 .glass::before {
+    height: 20px; /* Further adjust height for even smaller screens */
+    font-size: 0.6em; /* Further adjust font-size for even smaller screens */
+  }
+}

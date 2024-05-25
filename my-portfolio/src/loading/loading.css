@@ -61,3 +61,25 @@
       transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
     }
   }
+
+  @media (max-width: 1200px){
+    .spinner{
+      top: 50%;
+      left: 40%;
+    }
+  }
+
+  @media (max-width: 768px){
+    .spinner{
+      top: 50%;
+      left: 40%;
+    }
+  }
+
+  @media (max-width: 480px){
+    .spinner{
+      top: 50%;
+      left: 40%;
+    }
+    
+  }

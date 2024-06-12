@@ -35,18 +35,27 @@ const Portfolio = () => {
             <a href="#contact">Contact</a>
           </div>
         </nav>
-      </header> 
+      </header>
       <body>
-        <h1>About Me</h1>
         <div className="Intro">
           <img
             className="Surendra"
             src={Surendra}
             alt="Surendra Giri's Photo"
           />
+          {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill="#212121"
+              d="M42.6,-42.7C50.5,-34.8,48.7,-17.4,46.3,-2.4C43.9,12.7,41,25.3,33.1,38.8C25.3,52.3,12.7,66.7,1.1,65.6C-10.5,64.5,-21,48,-37,34.5C-53,21,-74.5,10.5,-74.5,0C-74.4,-10.4,-52.8,-20.8,-36.8,-28.7C-20.8,-36.6,-10.4,-42,3.5,-45.5C17.4,-49,34.8,-50.6,42.6,-42.7Z"
+              transform="translate(100 100)"
+            />
+          </svg> */}
           <div className="Myintro">
             <p>
-            "Hi, I'm Surendra Giri, a bachelor student passionate about technology. I love learning about coding and new tech. I'm excited to connect with others, share ideas, and work on innovative projects in the tech world."
+              "Hi, I'm Surendra Giri, a bachelor student passionate about
+              technology. I love learning about coding and new tech. I'm excited
+              to connect with others, share ideas, and work on innovative
+              projects in the tech world."
             </p>
             <SocialMediaIcons />
             <Myskills />

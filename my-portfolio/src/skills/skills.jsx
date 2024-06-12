@@ -5,6 +5,7 @@ import Python from '../images/python.png';
 import Nodejs from '../images/nodejs.png';
 import ReactIcon from '../images/structure.png';
 import JavaScript from '../images/js.png';
+import dj from '../images/django.png'
 
 const Myskills = () =>{
     return(
@@ -36,13 +37,13 @@ const Myskills = () =>{
             <image href={Java} />
           </svg>
         </div>
-        <div data-text="Node Js" style={{ "--r": "25" }} className="glass">
+        <div data-text="Django" style={{ "--r": "25" }} className="glass">
           <svg
             viewBox="0 0 496 512"
             height="60px"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <image href={Nodejs} />
+            <image href={dj} />
           </svg>
         </div>
     </div>

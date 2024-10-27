@@ -33,7 +33,7 @@ const Social = () => {
           </svg>
         </div>
       </a>
-      <a href="https://www.instagram.com/">
+      <a href="https://www.instagram.com/p00nam_stha?igsh=bmY1YWg2d3p2bHht">
         <div data-text="Instagram" style={{ "--r": "25" }} className="glass">
           <svg
             viewBox="0 0 576 512"

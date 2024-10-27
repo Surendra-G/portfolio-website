@@ -12,7 +12,7 @@ const SocialMediaIcons = () => {
       <a
         href="#"
         className="social-button github"
-        onClick={() => handleRedirect("https://github.com/Surendra-G")}
+        onClick={() => handleRedirect("https://github.com/")}
       >
         <svg
           className="cf-icon-svg"
@@ -25,7 +25,7 @@ const SocialMediaIcons = () => {
       <a
         href="#"
         className="social-button linkedin"
-        onClick={() => handleRedirect("https://www.linkedin.com/in/surendra-giri-4823b830b/")}
+        onClick={() => handleRedirect("https://www.linkedin.com/")}
       >
         <svg
           viewBox="0 -2 44 44"
@@ -46,7 +46,7 @@ const SocialMediaIcons = () => {
       <a
         href="#"
         className="social-button facebook"
-        onClick={() => handleRedirect("https://facebook.com/your-facebook-username")}
+        onClick={() => handleRedirect("https://facebook.com/")}
       >
         <svg
           version="1.1"
@@ -71,7 +71,7 @@ const SocialMediaIcons = () => {
       <a
         href="#"
         className="social-button instagram"
-        onClick={() => handleRedirect("https://www.instagram.com/surendra___g/")}
+        onClick={() => handleRedirect("https://www.instagram.com/p00nam_stha?igsh=bmY1YWg2d3p2bHht")}
       >
         <svg
           width="800px"

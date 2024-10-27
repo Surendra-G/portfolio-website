@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div class="shine">© 2024 Surendra Giri</div>
+    <div class="shine">© 2024 Punam Shrestha</div>
 
   );
 };

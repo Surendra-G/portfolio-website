@@ -11,7 +11,7 @@ const Githubbtn = () => {
 const Social = () => {
   return (
     <div className="container">
-      <a href="https://github.com/Surendra-G">
+      <a href="https://github.com/">
         <div data-text="Github" style={{ "--r": "-15" }} className="glass">
           <svg
             viewBox="0 0 496 512"
@@ -22,7 +22,7 @@ const Social = () => {
           </svg>
         </div>
       </a>
-      <a href="https://www.linkedin.com/in/surendra-giri-4823b830b/">
+      <a href="https://www.linkedin.com/">
         <div data-text="Linkedin" style={{ "--r": "5" }} className="glass">
           <svg
             viewBox="0 0 640 512"
@@ -33,7 +33,7 @@ const Social = () => {
           </svg>
         </div>
       </a>
-      <a href="https://www.instagram.com/surendra___g/">
+      <a href="https://www.instagram.com/">
         <div data-text="Instagram" style={{ "--r": "25" }} className="glass">
           <svg
             viewBox="0 0 576 512"
